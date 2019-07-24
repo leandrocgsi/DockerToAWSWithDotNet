@@ -26,6 +26,7 @@ deploy:
     export PATH=$PATH:$HOME/.local/bin;
     eval $(aws ecr get-login --no-include-email --region $AWS_DEFAULT_REGION)
     docker tag docker-to-aws-with-dotnet:latest $IMAGE_REPO_URL:latest;
+    docker push $IMAGE_REPO_URL:latest;
   on:
     branch: master
 notifications:
