@@ -17,18 +17,5 @@ deploy:
     docker push leandrocgsi/docker-to-aws-with-dotnet;
   on:
     branch: master
-after_success:
-  - sudo apt-get -y install python3-pip python-dev
-  - sudo pip3 install -U setuptools
-  - sudo pip3 install -U virtualenvwrapper
-  - python3 -V
-  - pip3 -V
-  - pip3 uninstall wheel
-  - pip3 install wheel
-  - pip3 install awscli --upgrade --user
-  - export PATH=$PATH:$HOME/.local/bin
-  - eval $(aws ecr get-login --no-include-email --region $AWS_DEFAULT_REGION)
-  - docker tag docker-to-aws-with-dotnet:latest $IMAGE_REPO_URL:latest
-  - docker push $IMAGE_REPO_URL:latest
 notifications:
   email: false
