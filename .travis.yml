@@ -24,7 +24,7 @@ deploy:
     pip3 install wheel;
     pip3 install awscli --upgrade --user;
     export PATH=$PATH:$HOME/.local/bin;
-    eval $(aws ecr get-login --no-include-email --region $AWS_DEFAULT_REGION);
+    eval $(aws ecr get-login --region $AWS_DEFAULT_REGION);
     docker tag docker-to-aws-with-dotnet:latest 600842930730.dkr.ecr.us-east-2.amazonaws.com/docker-to-aws-with-dotnet:latest;
     docker push 600842930730.dkr.ecr.us-east-2.amazonaws.com/docker-to-aws-with-dotnet:latest;
   on:
