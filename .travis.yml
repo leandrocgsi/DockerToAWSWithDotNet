@@ -25,8 +25,10 @@ deploy:
     pip3 install awscli --upgrade --user;
     export PATH=$PATH:$HOME/.local/bin;
     eval $(aws ecr get-login --no-include-email --region $AWS_DEFAULT_REGION)
-    docker tag docker-to-aws-with-dotnet:latest $IMAGE_REPO_URL:latest;
-    docker push $IMAGE_REPO_URL:latest;
+    #docker tag docker-to-aws-with-dotnet:latest $IMAGE_REPO_URL:latest;
+    #docker push $IMAGE_REPO_URL:latest;
+    docker tag docker-to-aws-with-dotnet:latest 600842930730.dkr.ecr.us-east-2.amazonaws.com/docker-to-aws-with-dotnet:latest
+    docker push 600842930730.dkr.ecr.us-east-2.amazonaws.com/docker-to-aws-with-dotnet:latest
   on:
     branch: master
 notifications:
