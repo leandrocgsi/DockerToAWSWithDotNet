@@ -1,0 +1,21 @@
+sudo: required
+dist: bionic
+language: csharp
+mono: none
+dotnet: 2.0.0
+python:
+  - "3.6"
+services: docker
+script:
+  - docker-compose build
+before_deploy:
+  echo "$DOCKER_PASSWORD" | docker login --username "$DOCKER_USERNAME" --password-stdin
+deploy:
+  provider: script
+  script:
+    docker tag docker-to-aws-with-dotnet:latest leandrocgsi/docker-to-aws-with-dotnet:latest;
+    docker push leandrocgsi/docker-to-aws-with-dotnet;
+  on:
+    branch: master
+notifications:
+  email: false
