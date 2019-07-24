@@ -25,7 +25,7 @@ after_success:
   - pip3 -V
   - pip3 uninstall wheel
   - pip3 install wheel
-  - pip3 install awscli --upgrade --username
+  - pip3 install awscli --upgrade --user
   - export PATH=$PATH:$HOME/.local/bin
   - eval $(aws ecr get-login --no-include-email --region $AWS_DEFAULT_REGION)
   - docker tag docker-to-aws-with-dotnet:latest $IMAGE_REPO_URL:latest
