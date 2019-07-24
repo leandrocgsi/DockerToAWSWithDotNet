@@ -29,5 +29,6 @@ deploy:
     docker push 600842930730.dkr.ecr.us-east-2.amazonaws.com/docker-to-aws-with-dotnet:latest;
   on:
     branch: master
+
 notifications:
   email: false
