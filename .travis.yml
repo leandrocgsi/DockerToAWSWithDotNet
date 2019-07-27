@@ -30,6 +30,6 @@ after_success:
   - eval $(aws ecr get-login --no-include-email --region $AWS_DEFAULT_REGION)
   - docker tag docker-to-aws-with-dotnet:latest $IMAGE_REPO_URL:latest
   - docker push $IMAGE_REPO_URL:latest
-  - aws ecs update-service --service $SERVICE_NAME --task-definition $TASK_NAME
+  - aws ecs $CLUSTER_NAME --service $SERVICE_NAME --task-definition $TASK_NAME
 notifications:
   email: false
