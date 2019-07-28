@@ -122,7 +122,7 @@ namespace RestWithASPNETUdemy
                 c.SwaggerDoc("v1",
                     new Info
                     {
-                        Title = "Docker to AWS with .NET Core 2.0 - FOO-BAR",
+                        Title = "Docker to AWS with .NET Core 2.0",
                         Version = "v1"
                     });
 
