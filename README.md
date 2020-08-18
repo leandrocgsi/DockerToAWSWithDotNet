@@ -2,6 +2,12 @@
 
 [![Build Status](https://travis-ci.org/leandrocgsi/DockerToAWSWithDotNet.svg?branch=master)](https://travis-ci.org/leandrocgsi/DockerToAWSWithDotNet)
 
+# English Version
+
+[![Image](https://github.com/leandrocgsi/RestWithSpringBootUdemy/blob/master/Images/docker_to_amazon_aws_deploy_apps_java_and_dot_net_with_travis_ci.png?raw=true "Docker to Amazon AWS Deploy Java & .NET Apps with Travis CI")](https://www.udemy.com/course/docker-to-amazon-aws-deploy-java-net-apps-with-travis-ci/?couponCode=DOCKER_IN_ACTION)
+
+# Portuguese Version
+
 [![Image](https://github.com/leandrocgsi/RestWithSpringBootUdemy/blob/master/Images/docker_para_amazon_aws_implante_apps_java_e_dot_net_com_travis_ci.png?raw=true "Docker para Amazon AWS Implante Apps Java e .NET com Travis CI")](https://www.udemy.com/docker-para-amazon-aws-implante-aplicacoes-java-e-net/?couponCode=GTHB_FLASH_SALE2019)
 
 ## Cursos Relacionados
