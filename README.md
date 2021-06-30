@@ -1,15 +1,15 @@
-# [Docker para Amazon AWS Implante Apps Java e .NET com Travis CI](https://www.udemy.com/docker-para-amazon-aws-implante-aplicacoes-java-e-net/?couponCode=GTHB_FLASH_SALE2019)
-### [Saiba obter o máximo do Docker na Amazon AWS seja em aplicações Java ou .NET](https://www.udemy.com/docker-para-amazon-aws-implante-aplicacoes-java-e-net/?couponCode=GTHB_FLASH_SALE2019)
+# [Docker para Amazon AWS Implante Apps Java e .NET com Travis CI](https://www.udemy.com/course/docker-para-amazon-aws-implante-aplicacoes-java-e-net/?couponCode=GTHB_FLASH_SALE2021)
+### [Saiba obter o máximo do Docker na Amazon AWS seja em aplicações Java ou .NET](https://www.udemy.com/course/docker-para-amazon-aws-implante-aplicacoes-java-e-net/?couponCode=GTHB_FLASH_SALE2021)
 
 [![Build Status](https://travis-ci.org/leandrocgsi/DockerToAWSWithDotNet.svg?branch=master)](https://travis-ci.org/leandrocgsi/DockerToAWSWithDotNet)
 
 # English Version
 
-[![Image](https://github.com/leandrocgsi/RestWithSpringBootUdemy/blob/master/Images/docker_to_amazon_aws_deploy_apps_java_and_dot_net_with_travis_ci.png?raw=true "Docker to Amazon AWS Deploy Java & .NET Apps with Travis CI")](https://www.udemy.com/course/docker-to-amazon-aws-deploy-java-net-apps-with-travis-ci/?couponCode=DOCKER_IN_ACTION)
+[![Image](https://github.com/leandrocgsi/RestWithSpringBootUdemy/blob/master/Images/docker_to_amazon_aws_deploy_apps_java_and_dot_net_with_travis_ci.png?raw=true "Docker to Amazon AWS Deploy Java & .NET Apps with Travis CI")](https://www.udemy.com/course/docker-to-amazon-aws-deploy-java-net-apps-with-travis-ci/?couponCode=GTHB_FLASH_SALE2021)
 
 # Portuguese Version
 
-[![Image](https://github.com/leandrocgsi/RestWithSpringBootUdemy/blob/master/Images/docker_para_amazon_aws_implante_apps_java_e_dot_net_com_travis_ci.png?raw=true "Docker para Amazon AWS Implante Apps Java e .NET com Travis CI")](https://www.udemy.com/docker-para-amazon-aws-implante-aplicacoes-java-e-net/?couponCode=GTHB_FLASH_SALE2019)
+[![Image](https://github.com/leandrocgsi/RestWithSpringBootUdemy/blob/master/Images/docker_para_amazon_aws_implante_apps_java_e_dot_net_com_travis_ci.png?raw=true "Docker para Amazon AWS Implante Apps Java e .NET com Travis CI")](https://www.udemy.com/course/docker-para-amazon-aws-implante-aplicacoes-java-e-net/?couponCode=GTHB_FLASH_SALE2021)
 
 ## [Download e-Book Grátis](https://pub.erudio.com.br/guia-docker)
 
@@ -27,6 +27,6 @@
 
 [![Image](https://github.com/leandrocgsi/RestWithSpringBootUdemy/blob/master/Images/rest_apis_restful_from_0_to_aws_with_spring_boot_and_docker.png?raw=true "REST API's RESTFul from 0 to AWS with Spring Boot and Docker")](https://www.udemy.com/course/rest-apis-restful-from-0-to-aws-with-spring-boot-and-docker/?referralCode=9D88FD51272501E56FAB)
 
-Este é um dos repositórios dos codigos fonte desenvolvidos no curso [Docker para Amazon AWS Implante Apps Java e .NET + Travis CI](https://www.udemy.com/docker-para-amazon-aws-implante-aplicacoes-java-e-net/?couponCode=GTHB_FLASH_SALE2019)
+Este é um dos repositórios dos codigos fonte desenvolvidos no curso [Docker para Amazon AWS Implante Apps Java e .NET com Travis CI](https://www.udemy.com/course/docker-para-amazon-aws-implante-aplicacoes-java-e-net/?couponCode=GTHB_FLASH_SALE2021)
 
-[<img src="https://github.com/leandrocgsi/DockerToAWSWithDotNet/blob/master/Images/udemy.png?raw=true">](https://www.udemy.com/docker-para-amazon-aws-implante-aplicacoes-java-e-net/?couponCode=GTHB_FLASH_SALE2019)
+[<img src="https://github.com/leandrocgsi/DockerToAWSWithDotNet/blob/master/Images/udemy.png?raw=true">](https://www.udemy.com/course/docker-para-amazon-aws-implante-aplicacoes-java-e-net/?couponCode=GTHB_FLASH_SALE2021)
